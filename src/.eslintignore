@@ -1,0 +1,4 @@
+# Avoid check on these files
+*.css
+*.svg
+*.jsx

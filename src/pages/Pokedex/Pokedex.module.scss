@@ -1,0 +1,37 @@
+.pokedex {
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .columnBorder {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border-right: 2px solid black;
+  }
+
+  .topSpace {
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+
+  .bottomSpace {
+    height: 100px;
+    width: 100%;
+    border-top: 2px solid black;
+  }
